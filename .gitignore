@@ -1,0 +1,16 @@
+# 데이터 파일 (용량이 커서 제외)
+data/*.csv
+data/*.zip
+
+# 파이썬 캐시 및 설정
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.env
+
+# 캐글 인증 키
+kaggle.json
+
+# 가상환경
+venv/
+env/
