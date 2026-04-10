@@ -1,6 +1,8 @@
-# 데이터 파일 (용량이 커서 제외)
-data/*.csv
-data/*.zip
+# 데이터 파일
+data/prep/*
+data/raw/*
+!data/prep/.gitkeep
+!data/raw/.gitkeep
 
 # 파이썬 캐시 및 설정
 __pycache__/
