@@ -1,7 +1,8 @@
-# 데이터 파일 폴더
-data/*
+# 데이터 파일
 data/prep/*
 data/raw/*
+!data/prep/.gitkeep
+!data/raw/.gitkeep
 
 # 파이썬 캐시 및 설정
 __pycache__/
@@ -14,4 +15,4 @@ kaggle.json
 
 # 가상환경
 venv/
-env/
+env/data/
