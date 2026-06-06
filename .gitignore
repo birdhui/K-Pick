@@ -15,4 +15,4 @@ kaggle.json
 
 # 가상환경
 venv/
-env/data/
+env/
